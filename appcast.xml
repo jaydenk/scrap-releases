@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Scrap</title>
+    <item>
+      <title>Scrap 0.4.0</title>
+      <pubDate>Tue, 17 Nov 2026 05:56:03 +0000</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>0.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
+      <description sparkle:format="markdown"><![CDATA[
+# Scrap v0.4.0 (build 8)
+
+**Update Scrap on all your devices.** Scrap for iOS 0.4.0 ships alongside this release, and
+both work best at the same version.
+
+This release shows you where synced text lands, adds line times, and makes Scrap keep itself
+up to date from now on.
+
+## See what arrived
+
+- **A green bar marks text that synced from another device**, beside the lines it changed. It
+  stays for about 4 seconds once you can actually see it, then fades. Text that arrives while
+  the panel is closed, scrolled out of view or on another day's tab keeps its bar until you
+  look, and a bar you only glimpsed finishes its few seconds when you come back.
+- Lines added together get one bar: the bars follow the line times, so a block that shows one
+  time has one bar.
+- Text Scrap pastes for you from your clipboard (Settings › **Paste recent copies when
+  opening**) gets a blue bar.
+
+## Line times
+
+- **Swipe left with two fingers** (or scroll sideways with a mouse) to slide the page and see
+  when each line was added, or `edited` and when. Let go and it springs back.
+- **Hold Option** to show the times over the text without sliding it.
+- A block typed in one minute shows one time, at its top. Blank lines get none.
+
+## Typing and sync
+
+- **Synced text waits while you type.** If a change arrives while you're mid-sentence, Scrap
+  applies it once you pause, and your cursor stays where you were typing.
+- Scrap now saves your typing half a second after you stop, rather than on every keystroke,
+  and keeps a copy of every keystroke meanwhile, so nothing is lost if it quits.
+- Fixed: if two devices created the same day's note at the same moment, an edit made on one of
+  them straight afterwards could, rarely, be dropped.
+
+## Updates
+
+- **Scrap now updates itself.** It checks for a new version about once a day. If you're busy, a
+  dot appears on the menu-bar icon and a notification tells you an update is ready. You can
+  also choose **Check for Updates…** from the menu-bar icon's menu, and turn automatic checks
+  off in Settings.
+- Updates come from this version on: this one you install by hand, as before.
+- **Keep Scrap in your Applications folder.** Opened from anywhere else, such as Downloads,
+  Scrap asks you to move it there, because it can only update itself from Applications. Drag
+  it into Applications, then open it from there.
+
+## Known issues
+
+- With three or more devices typing in the same note at once, a line can occasionally appear
+  twice. Nothing is lost.
+- Rarely, if two devices tidy up the same duplicated day at the same moment, a line you deleted
+  can come back. Nothing is lost.
+]]></description>
+      <enclosure url="https://github.com/jaydenk/scrap-releases/releases/download/v0.4.0/Scrap-0.4.0.zip" length="3431259" type="application/octet-stream" sparkle:edSignature="hE6Btzt1Db5Rdr3CpTXZHbwGEoAvOki1QWIDD6jKgkLpn9NMetZjkvXzBcsfF5Nu9zNQ7jLDON5f32si4Z4EDA=="/>
+    </item>
+  </channel>
+</rss>
