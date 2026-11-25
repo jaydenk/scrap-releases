@@ -3,38 +3,22 @@
   <channel>
     <title>Scrap</title>
     <item>
-      <title>Scrap 1.0.0</title>
-      <pubDate>Tue, 24 Nov 2026 04:10:32 +0000</pubDate>
-      <sparkle:version>10</sparkle:version>
-      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <title>Scrap 1.0.1</title>
+      <pubDate>Wed, 25 Nov 2026 03:00:05 +0000</pubDate>
+      <sparkle:version>11</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>27.0</sparkle:minimumSystemVersion>
       <description sparkle:format="markdown"><![CDATA[
-# Scrap v1.0.0 (build 10)
+# Scrap v1.0.1 (build 11)
 
-Scrap's first public release. Scrap for iPhone is coming to the App Store soon. If you use both,
-keep them on the same version.
-
-Scrap is a simple notepad in your menu bar, with a page for each day of the week. It always opens
-on today, so you can jot something down straight away. Last week's notes stay where you left
-them, and you can plan ahead for the days coming up.
-
-- Open it from the menu bar or with your own keyboard shortcut
-- Headings, bold, links and checklists
-- See when you wrote each line
-- Add text from any app with Services, or drag it onto the menu-bar icon
-- Add notes with Shortcuts and Siri
-- Print a note, or save it as a PDF
-- Search older notes in the Archive
-- Pick up where you left off on your iPhone with Handoff
-- Keyboard shortcuts for each day
-- Syncs with iCloud
-- Daily backups
-- Updates itself
-- Support for macOS accessibility settings
-- No account, no ads, no tracking
-- Your notes are yours
+- If signing out of iCloud removed your notes, the notice at the top of Scrap now has a Restore
+  Backup… button that brings back your latest daily backup
+- If you restore a backup and then sign back in to iCloud, lines no longer show up twice
+- Restoring a backup no longer leaves a "couldn't save" warning behind
+- Swiping to see when you wrote each line is smoother, especially on long notes
+- Improvements to the welcome window's design
 ]]></description>
-      <enclosure url="https://github.com/jaydenk/scrap-releases/releases/download/v1.0.0/Scrap-1.0.0.zip" length="3574739" type="application/octet-stream" sparkle:edSignature="sPT9FZLbkkFeeRhwOFWLyGZFEFB8M5Qsvl0f6YfSL3RVdsbKXVqcYoLbC4ZDemivgzg4xxVqkkhG4ly0q6voAA=="/>
+      <enclosure url="https://github.com/jaydenk/scrap-releases/releases/download/v1.0.1/Scrap-1.0.1.zip" length="3581613" type="application/octet-stream" sparkle:edSignature="A9Ww30rZaOB0Zk92B5zBK4dtwBXTmaFksRwZ9P+5f8Huv+OfXwdKxv0pJKz9yYhGfq6P7oX+MAa0WFbk9+6UAg=="/>
     </item>
   </channel>
 </rss>
